@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Step Navigation Plugin</title>
+	    <script src="js/stepnavigation.js"></script>
+	</head>
+  	<body>
+	    <h1>Step Navigation UI</h1>
+	    <div id="stepnavigation"></div>
+	    <button onclick=prev()>Previous</button>
+	    <button onclick=nextprogress()>Next Progress</button>
+	    <button onclick=next()>Next</button>
+	</body>
+  	<script type="text/javascript">
+	  	var configData = {
+	  		nodesize : "50",
+	  		progressbarheight : "10"
+	  	};
+	  	var stepsUI = new StepNavigatorUI("#stepnavigation",10,configData);
+	  	function prev(){
+	  		stepsUI.prev();
+	  	}
+
+		function nextprogress(){
+	  		stepsUI.next(false)
+	  	}
+
+	  	function next(){
+	  		stepsUI.next()
+	  	}
+	</script>
+</html>
