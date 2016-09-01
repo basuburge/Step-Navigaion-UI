@@ -26,8 +26,8 @@ How to use this plugin?
   		@param {number} progressbarheight - height of the progressbar
 
 
+Methods to navigate through the steps
 <pre>
-  Methods to navigate through the steps\n
   1) stepnavigator.next() //TO go to next step
   2) stepnavigator.next(false) //To show next step as IN Progress
   3) stepnavigator.prev() //TO go to Previous Step
