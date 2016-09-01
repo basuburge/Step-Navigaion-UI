@@ -7,9 +7,11 @@ How to use this plugin?
 
 1) Create Empty Div with unique id
     
-    <pre><div id="stepnavigator">
+    <pre>
+	<div id="stepnavigator">
        <!-- plug in will generate the Step Navigation Automatically once intiated from javascript -->
-    </div></pre>
+    </div>
+	</pre>
  	
  2) Create Object of the plugin 
 	
